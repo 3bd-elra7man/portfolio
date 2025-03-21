@@ -2,9 +2,11 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import clubdecinemaImg from "@/public/clubdecinema.webp"
+import crudImg from "@/public/crud.webp"
+import landingImg from "@/public/landing.webp"
+
 
 export const links = [
   {
@@ -62,25 +64,28 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "ClubdeCinema",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Club de Cinema is a movie website where you can find information about your favorite movies and shows.",
+    tags: ["React", "React-Router-Dom", "Bootstrap", "Swiper", "Netlify"],
+    imageUrl: clubdecinemaImg,
+    Link: "https://clubdecinema.netlify.app/"
   },
   {
-    title: "rmtDev",
+    title: "Crud System",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A simple product management app with Regex Validation that lets users add, update, search, and delete products. Data is stored in local storage.",
+    tags: ["HTML", "CSS", "Regex" , "JavaScript", "Bootstrap"],
+    imageUrl: crudImg,
+    Link: "https://3bd-elra7man.github.io/crud/"
   },
   {
-    title: "Word Analytics",
+    title: "Landing Page",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A Simple Landing Page for a portfolio with a smooth scroll effect and a responsive design.",
+    tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    imageUrl: landingImg,
+    Link: "https://3bd-elra7man.github.io/landing-page/"
   },
 ] as const;
 

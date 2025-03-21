@@ -26,9 +26,9 @@ export default function RootLayout({
          bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}>
         <div className="bg-[#e2ebf0] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#1c3146]"></div>
         <div className="bg-[#D0dae0] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left[-5rem] dark:bg-[#1e130c]"></div>
-        <div className="dark:hidden relative">
+        <div className="relative dark:hidden">
           <Spotlight
-            className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
+            className="h-screen -top-40 -left-10 md:-left-32 md:-top-20"
             fill="teal"
           />
           <Spotlight
@@ -36,13 +36,13 @@ export default function RootLayout({
             fill="pink"
           />
         </div>
-        <div className="hidden dark:block relative">
+        <div className="relative hidden dark:block">
           <Spotlight
-            className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
+            className="h-screen -top-40 -left-10 md:-left-32 md:-top-20"
             fill="white"
           />
           <Spotlight
-            className="left-80 top-28 h-[80vh] w-[50vw]"
+            className="left-64 top-28 h-[80vh] w-[50vw]"
             fill="blue"
           />
         </div>

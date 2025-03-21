@@ -25,7 +25,7 @@ export default function Intro() {
                 src="/pic.webp" alt="avatar" width="192" height="192" quality="95" priority={true} className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"/>
                 </motion.div>
                 <motion.span 
-                className='text-3xl absolute bottom-0 right-0'
+                className='absolute bottom-0 right-0 text-3xl'
                 initial={{opacity: 0, scale: 0}}
                 animate={{opacity: 1, scale: 1}}
                 transition={{type: "spring", stiffness: 125, duration: 0.7, delay: 0.1}}
@@ -46,7 +46,7 @@ export default function Intro() {
         <span className="underline">React (Next.js)</span>.  
         </motion.h1>
         <motion.div
-        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+        className="flex flex-col items-center justify-center gap-2 px-4 text-lg font-medium sm:flex-row"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -62,15 +62,15 @@ export default function Intro() {
     }}
     >
     Contact me{" "}
-    <HiOutlineMail className="opacity-70 scale-110 group-hover:translate-x-1 transition" />
+    <HiOutlineMail className="transition scale-110 opacity-70 group-hover:translate-x-1" />
     </Link>
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+          className="flex items-center gap-2 py-3 transition bg-white rounded-full outline-none cursor-pointer group px-7 focus:scale-110 hover:scale-110 active:scale-105 borderBlack dark:bg-white/10"
           href="/CV.pdf"
           download
         >
           Download CV{" "}
-          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+          <HiDownload className="transition opacity-60 group-hover:translate-y-1" />
         </a>
 
         <a
@@ -83,7 +83,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/abdelrahmanmoh26"
+          href="https://github.com/3bd-elra7man"
           target="_blank"
         >
           <FaGithubSquare />
