@@ -32,7 +32,7 @@ export default function RootLayout({
             fill="teal"
           />
           <Spotlight
-            className="left-80 top-28 h-[80vh] w-[50vw]"
+            className="left-64 top-28 h-[80vh] w-[50vw]"
             fill="pink"
           />
         </div>
