@@ -131,9 +131,9 @@ export const skillsData = [
     desc: 'Version Control'
   },
   {
-    imgSrc: '/figma.svg',
-    label: 'Figma',
-    desc: 'Design tool'
+    imgSrc: '/github.svg',
+    label: 'GitHub',
+    desc: 'Git hosting'
   },
   {
     imgSrc: '/tailwindcss.svg',
