@@ -2,9 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import wordanalyticsImg from "@/public/wordanalytics.png";
 import clubdecinemaImg from "@/public/clubdecinema.webp"
-import crudImg from "@/public/crud.webp"
+import sanayiImg from "@/public/sanayi.webp"
 import landingImg from "@/public/landing.webp"
 
 
@@ -72,15 +71,15 @@ export const projectsData = [
     Link: "https://clubdecinema.netlify.app/"
   },
   {
-    title: "Crud System",
+    title: "Sanayi",
     description:
-      "A simple product management app with Regex Validation that lets users add, update, search, and delete products. Data is stored in local storage.",
-    tags: ["HTML", "CSS", "Regex" , "JavaScript", "Bootstrap"],
-    imageUrl: crudImg,
-    Link: "https://3bd-elra7man.github.io/crud/"
+      "A Service web app Connecting individuals within Egyptian communities by offering and finding services and educational opportunities..",
+    tags: ["React", "TailwindCSS", "NodeJs", "Express", "MongoDB"],
+    imageUrl: sanayiImg,
+    Link: "https://sanayi.vercel.app/"
   },
   {
-    title: "Landing Page",
+    title: "Portfolio Landing Page",
     description:
       "A Simple Landing Page for a portfolio with a smooth scroll effect and a responsive design.",
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
