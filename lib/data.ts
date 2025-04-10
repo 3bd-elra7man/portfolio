@@ -48,7 +48,7 @@ export const experiencesData = [
     field: "Web Masters",
     description:
       "I joined Web Masters as a Frontend Development Intern, where I applied my skills to real-world projects, gaining hands-on experience and enhancing my technical expertise.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(FaReact),
     date: "2024",
   },
   {
