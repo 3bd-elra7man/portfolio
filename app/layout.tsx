@@ -13,6 +13,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Abdelrahman | Personal Portfolio',
   description: 'Abdelrahman is a Frontend Developer with 1 year of experience.',
+  icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({
