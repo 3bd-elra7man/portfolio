@@ -36,20 +36,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated from AASTMT",
-    field: "Electrical Engineering",
+    title: "System Administrator (Pro-Active)",
+    field: "Raya Data Center",
     description:
-      "Shortly after graduation, I made the decision to pursue a career as a front-end developer and immediately began self-directed learning to achieve this goal.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2022",
-  },
-  {
-    title: "DEPI",
-    field: "React Web Developer",
-    description:
-      "I successfully completed the Initiative Training Program after six months of intensive study, during which I acquired a range of skills, including mastering React.js from the ground up, as well as Hooks, Redux, React Router, Next.js, and industry best practices.",
-    icon: React.createElement(FaReact),
-    date: "2024",
+      "Monitor notification and monitoring tools, analyze alerts, and assign cases to technical teams. Provide first-line support for applications and networks, manage scheduled outages, and ensure effective communication with ISPs, internal teams, and impacted customers.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2025 - present",
   },
   {
     title: "Front-End Internship",
@@ -57,8 +49,16 @@ export const experiencesData = [
     description:
       "I joined Web Masters as a Frontend Development Intern, where I applied my skills to real-world projects, gaining hands-on experience and enhancing my technical expertise.",
     icon: React.createElement(CgWorkAlt),
-    date: "2024 - present",
+    date: "2024",
   },
+  {
+    title: "DEPI",
+    field: "React Web Developer",
+    description:
+      "I successfully completed the Initiative Training Program after six months of intensive study, during which I acquired a range of skills, including mastering React.js from the ground up, as well as Hooks, Redux, React Router, Next.js, and industry best practices.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024",
+  }
 ] as const;
 
 export const projectsData = [
