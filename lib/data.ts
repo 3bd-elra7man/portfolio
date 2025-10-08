@@ -36,10 +36,10 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "System Administrator (Pro-Active)",
+    title: "Front-End Developer",
     field: "Raya Data Center",
     description:
-      "Monitor notification and monitoring tools, analyze alerts, and assign cases to technical teams. Provide first-line support for applications and networks, manage scheduled outages, and ensure effective communication with ISPs, internal teams, and impacted customers.",
+      "Contributed to multiple web applications by creating seamless, high-quality user experiences and implementing best practices in performance and accessibility.",
     icon: React.createElement(CgWorkAlt),
     date: "2025 - present",
   },
