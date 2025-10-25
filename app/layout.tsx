@@ -7,6 +7,7 @@ import Footer from '@/components/footer'
 import ThemeSwitch from '@/components/theme-switch'
 import ThemeContextProvider from './../context/theme-context';
 import { Spotlight } from '@/components/ui/Spotlight'
+import SplashCursor from '@/components/SplashCursor'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -58,6 +59,7 @@ export default function RootLayout({
       <ThemeSwitch/>
       </ActiveSectionContextProvider>
       </ThemeContextProvider>
+      <SplashCursor/>
       </body>
     </html>
   )
