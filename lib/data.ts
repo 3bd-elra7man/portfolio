@@ -68,7 +68,7 @@ export const projectsData = [
       "Club de Cinema is a movie website where you can find information about your favorite movies and shows.",
     tags: ["React", "React-Router-Dom", "Bootstrap", "Swiper", "Netlify"],
     imageUrl: clubdecinemaImg,
-    Link: "https://clubdecinema.netlify.app/"
+    Link: "https://clubdecinema.vercel.app/"
   },
   {
     title: "Sanayi",
